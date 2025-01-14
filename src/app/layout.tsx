@@ -65,24 +65,17 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
-        {/* ✅ Basic Meta Tags */}
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="Software Developer, Full-Stack Developer, Django, React, AWS, FastAPI, SEO, Portfolio"
+          content="Hassan Portfolio, Software Developer, Full-Stack Developer, Django, React, AWS, FastAPI, SEO, Portfolio, Python Developer, Next.Js"
         />
         <meta name="author" content={DATA.name} />
         <meta name="theme-color" content="#ffffff" />
-
-        {/* ✅ Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-        {/* ✅ Canonical URL */}
         <link rel="canonical" href={DATA.url} />
-
-        {/* ✅ JSON-LD Structured Data for Google SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

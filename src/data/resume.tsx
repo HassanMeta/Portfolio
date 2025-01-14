@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Hassan | Portfolio",
+  name: "Hassan Portfolio | Software Developer",
   initials: "DV",
   ogImage: "/og-image.png",
   url: "https://github.com/MohdHassanAnsari?tab=repositories",
